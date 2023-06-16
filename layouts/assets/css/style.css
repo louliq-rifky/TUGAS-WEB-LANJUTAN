@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+#bg-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color:rgb(134, 201, 166);
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+.box-login h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #000000;
+}
+.btn-login {
+    padding: 8px 15px;
+    background-color: rgb(195, 27, 27);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #000000;
+  }
+  
+.btn-login:hover {
+    background-color:limegreen;
+}
+.input-control{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.input-data{
+    width: 80%;
+    box-sizing: border-box;
+}
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #004031;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #766959;
+    border-radius: 15px;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+    
+}
+
+.info {
+    background-color: #f5f7fa;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+table {
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 75%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+}
+
+table th {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    background-color: #d8dadf;
+}
+
+table td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+.btn {
+    background-color: #1a6ed8;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #1e7ff5;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #004031;
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+    color: #ffffff;
+    text-align: center;
+    
+
+}
+

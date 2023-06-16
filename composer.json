@@ -1,0 +1,19 @@
+{
+    "name": "louliqrifky/weblanjutan",
+    "description": "Tugas2 Web Lanjutan",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Louliq-rifky",
+            "email": "louliqrifky0999@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "filp/whoops": "^2.14"
+    }
+}
